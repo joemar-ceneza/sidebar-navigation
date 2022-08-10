@@ -26,6 +26,7 @@ aside{
     background-color: rgb(36, 34, 34);
     overflow-x: hidden;
     transition: all 0.3s linear;
+    transform: translate(-100%);
     .logo{
         display: flex;
         justify-content: center;
@@ -129,7 +130,7 @@ aside{
         display: flex;
         align-items: center;
         padding: 1em;
-        margin: 0 0.5em 0 0.5em;
+        margin: 0 0.5em 25em 0.5em;
         border-radius: 10px;
         cursor: pointer;
         h3{
@@ -143,15 +144,16 @@ aside{
         }
     }
     .material-symbols-outlined {
+        cursor: pointer;
         font-variation-settings:
         'FILL' 0,
         'wght' 300,
         'GRAD' 0,
         'opsz' 48
     }
-    .show-links{
-        transform: translate(0%);
-    }
+}
+.show-sidebar{
+    transform: translate(0%);
 }
 main{
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
