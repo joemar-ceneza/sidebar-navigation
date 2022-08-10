@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(58, 53, 53);
+    color: rgb(241, 235, 235);
+}
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    width: 90%;
+}
+aside{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 34, 34);
+    overflow-x: hidden;
+    transition: all 0.3s linear;
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        cursor: pointer;
+        .fa-brands{
+            font-size: 2rem;
+        }
+        h1{
+            font-size: 1.3rem;
+            padding: 0 1rem;
+        }
+    }
+    .dashboard{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 3em 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .user{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 0 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .message{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 0 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .bookmark{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 0 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .files{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 0 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .stats{
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        margin: 0 0.5em 0 0.5em;
+        border-radius: 10px;
+        cursor: pointer;
+        h3{
+            font-size: 1rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            padding: 0 1.5em;
+        }
+        &:hover{
+            background-color: grey;
+        }
+    }
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 48
+    }
+    .show-links{
+        transform: translate(0%);
+    }
+}
+main{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0;
+            .fa-brands{
+                font-size: 2rem;
+            }
+            h1{
+                font-size: 1.5rem;
+                font-weight: 500;
+                padding: 0 1rem;
+            }
+        }
+        .toggle-nav{
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+    }
+}
