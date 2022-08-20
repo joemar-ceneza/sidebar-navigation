@@ -1,6 +1,6 @@
 # Sidebar Navigation
 
-This Sidebar Navigation has a toggle menu button that can show and hide the sidebar made with HTML, CSS and JavaScript
+This Sidebar Navigation has a toggle menu button that can show and hide the sidebar made with HTML, CSS/Sass and JavaScript
 
 ## Table of contents
 
