@@ -38,7 +38,7 @@ Users should be able to:
 - Flexbox
 - Desktop First Workflow
 - JavaScript
-- *element*.classList.toggle
+- element.classList.toggle
 
 ### Useful resources
 
